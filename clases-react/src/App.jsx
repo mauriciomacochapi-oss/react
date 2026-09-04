@@ -5,7 +5,7 @@ import "./App.css";
 import Persona from "./componentes/Persona";
 import Perfil from "./componentes/Perfil";
 import TargetaPelicula from "./componentes/TargetaPelicula";
-
+import Contador from "./componentes/Contador";
 //### Ejercicio 2.5 — Lista desde array
 //Tenés este array de películas:
 
@@ -25,8 +25,13 @@ function App() {
       </div>
       <div>
         {peliculas.map((pelicula) => (
-          <TargetaPelicula titulo={pelicula.titulo} año={""} vista={""} />
+          <TargetaPelicula titulo={pelicula.titulo} año={pelicula.año} vista={pelicula.vista} />
         ))}
+      </div>
+      <div>
+        <Contador ></Contador>
+        
+        
       </div>
     </>
   );

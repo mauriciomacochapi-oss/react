@@ -7,15 +7,15 @@ export default function Persona(){
             <h1>Mauricio</h1>
             <p>Desarrollador</p>
             <ul>
-                <li>
-                    python
-                </li>   
-                <li>
-                    JavaScript
-                </li>
-                <l1>
-                    SQL
-                </l1>
+             <li>
+                   python
+            </li>   
+             <li>
+                  JavaScript
+            </li>
+             <l1>
+                     SQL
+            </l1>
             </ul>
         </>
     )

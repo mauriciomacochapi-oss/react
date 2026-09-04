@@ -11,7 +11,7 @@ export default function TargetaPelicula(props){
             {año}
         </h1></>
         <h1>
-            {vista}
+            {vista === true ? "✓" : "" }
         </h1>
 
         </>

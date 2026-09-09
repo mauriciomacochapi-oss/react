@@ -6,6 +6,7 @@ import Persona from "./componentes/Persona";
 import Perfil from "./componentes/Perfil";
 import TargetaPelicula from "./componentes/TargetaPelicula";
 import Contador from "./componentes/Contador";
+import Acordeon from "./componentes/Acordeon";
 //### Ejercicio 2.5 — Lista desde array
 //Tenés este array de películas:
 
@@ -33,6 +34,9 @@ function App() {
         
         
       </div>
+      <div>
+        <Acordeon titulo={"empresa"} contenido={"escuela"}/>
+        </div>
     </>
   );
 }

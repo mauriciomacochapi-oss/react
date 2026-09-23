@@ -7,6 +7,7 @@ import Perfil from "./componentes/Perfil";
 import TargetaPelicula from "./componentes/TargetaPelicula";
 import Contador from "./componentes/Contador";
 import Acordeon from "./componentes/Acordeon";
+import Buscador from "./componentes/Buscador";
 //### Ejercicio 2.5 — Lista desde array
 //Tenés este array de películas:
 
@@ -21,22 +22,33 @@ function App() {
   return (
     <>
       <div>
-        <Persona />
-        <Perfil nombre="Mauri" lenguajes={["JavaScript", "React", "CSS"]} />
+        {/*
+          <>
+            <Persona />
+            <Perfil nombre="Mauri" lenguajes={["JavaScript", "React", "CSS"]} />
+          </> */}
       </div>
       <div>
-        {peliculas.map((pelicula) => (
-          <TargetaPelicula titulo={pelicula.titulo} año={pelicula.año} vista={pelicula.vista} />
-        ))}
-      </div>
-      <div>
-        <Contador ></Contador>
-        
-        
-      </div>
-      <div>
-        <Acordeon titulo={"empresa"} contenido={"escuela"}/>
+        {/*
+        <div>
+          {peliculas.map((pelicula) => (
+            <TargetaPelicula
+              titulo={pelicula.titulo}
+              año={pelicula.año}
+              vista={pelicula.vista}
+            />
+          ))}
         </div>
+        <div>
+          <Contador></Contador>
+        </div>
+        <div>
+          <Acordeon titulo={"empresa"} contenido={"indicador"} />
+        </div>
+*/}
+
+        <Buscador />
+      </div>
     </>
   );
 }

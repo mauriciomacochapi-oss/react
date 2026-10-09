@@ -10,8 +10,11 @@ export default function Buscador() {
     "mango",
   ]);
 
+  //queda realizar que la lista filtrada se muestre en el return. Hay que armar un estado con la lista nueva  
+
   function filtradoElementos(event) {
-    console.log(event.target.value);
+    const resultado = lista.filter((fruta) => fruta.includes(event.target.value))
+    console.log(resultado);
     
   }
 

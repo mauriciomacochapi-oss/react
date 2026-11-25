@@ -8,6 +8,7 @@ import TargetaPelicula from "./componentes/TargetaPelicula";
 import Contador from "./componentes/Contador";
 import Acordeon from "./componentes/Acordeon";
 import Buscador from "./componentes/Buscador";
+import ComponenteIntegrador from "./componentes/integrador/Componente";
 //### Ejercicio 2.5 — Lista desde array
 //Tenés este array de películas:
 
@@ -47,7 +48,7 @@ function App() {
         </div>
 */}
 
-        <Buscador />
+        <ComponenteIntegrador/>
       </div>
     </>
   );
